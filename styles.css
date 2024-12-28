@@ -81,7 +81,6 @@ header, footer {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-
 nav {
   display: flex;
   justify-content: center;
@@ -98,7 +97,7 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--accent1_900);
+  color: var(--accent1_500);
 }
 
 section {
@@ -108,9 +107,18 @@ section {
   background: var(--accent1_10);
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: var(--accent1_700)
 }
 
-h2 {
+section a {
+  color: var(--accent1_700);
+}
+
+section a:hover {
+  color: var(--accent1_500);
+}
+
+h2, h3 {
   color: var(--accent1_600);
 }
 
@@ -127,10 +135,10 @@ h2 {
 }
 
 .social-links a:hover {
-  color: var(--accent1_900);
+  color: var(--accent1_500);
 }
 
-.projects {
+.cardlist {
   overflow-x: auto;
   display: flex;
   gap: 1rem;
@@ -138,7 +146,7 @@ h2 {
   max-width: 100%;
 }
 
-.project-card {
+.card {
   flex: 0 0 auto;
   background: --accent3_100;
   border: 1px solid rgba(0, 0, 0, 0.12);
@@ -149,17 +157,17 @@ h2 {
   text-align: center;
 }
 
-.project-card h3 {
+.card h3 {
   margin: 0.5rem 0;
   color: var(--accent1_600);
 }
 
-.project-card p {
+.card p {
   font-size: 0.9rem;
   color: var(--neutral1_500);
 }
 
-.project-card a {
+.card a {
   display: inline-block;
   margin-top: 1rem;
   text-decoration: none;
@@ -167,6 +175,6 @@ h2 {
   font-weight: bold;
 }
 
-.project-card a:hover {
-  color: var(--accent1_900);
+.card a:hover {
+  color: var(--accent1_500);
 }
