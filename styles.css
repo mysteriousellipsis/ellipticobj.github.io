@@ -42,3 +42,35 @@ section {
   padding: 0.2rem;
   border-radius: 5px;
 }
+
+.projects {
+  overflow-x: auto;
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
+  max-width: 100%;
+}
+.project-card {
+  flex: 0 0 auto;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  max-width: 300px;
+  text-align: center;
+}
+.project-card h3 {
+  margin: 0.5rem 0;
+}
+.project-card p {
+  font-size: 0.9rem;
+  color: #666;
+}
+.project-card a {
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+}
